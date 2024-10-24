@@ -1,7 +1,8 @@
 export default function Carousel() {
     return (
-        <div>
-            <h1>Carousel</h1>
+        <div className="carrousel">
+            <h1>Gestiona tus invernaderos con nosotros</h1>
+            <button>Empezar Ahora</button>
         </div>
     );
 }

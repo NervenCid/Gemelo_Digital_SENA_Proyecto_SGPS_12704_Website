@@ -1,13 +1,22 @@
 export default function Footer() {
     return (
         <footer className="footer">
-            <div className="who__container">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi officia odio ex esse consequatur atque officiis eius error eveniet nihil ullam nostrum, iure vel neque necessitatibus reiciendis, cumque cum pariatur!</p>
-            </div>
-            <div className="images__container">
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Icon" />
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Icon" />
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Icon" />
+            <div className="container__footer">
+                <h1>Nuestras Redes - Visitanos</h1>
+                <div className="container__social">
+                    <div className="social__container">
+                        <h2>Github</h2>
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />
+                    </div>
+                    <div className="social__container">
+                        <h2>Github</h2>
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />
+                    </div>
+                    <div className="social__container">
+                        <h2>Github</h2>
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />
+                    </div>
+                </div>
             </div>
         </footer>
     );
