@@ -1,6 +1,7 @@
 import Carousel from "../components/Carousel";
 import Card from "../components/Card";
 import Cards from "../components/data/Cards";
+import carouselItems from "../components/data/Carousel";
 
 export default function Home() {
     const CardList = Cards.map(v => {
@@ -8,7 +9,7 @@ export default function Home() {
     })
     return(
         <>
-            <Carousel/>
+            <Carousel items={carouselItems} />
             <div className="container">
             {CardList}
             </div>

@@ -1,9 +1,10 @@
-import TeamCard from "../components/TeamCard"
+import TeamCard from "../components/TeamCard";
+import teamList from "../components/data/TeamList";
 
 export default function Team() {
-    return(
-        <>
-            <TeamCard/>
-        </>
+    return (
+        <div className="team">
+            <TeamCard teamList={teamList} />
+        </div>
     );
 }

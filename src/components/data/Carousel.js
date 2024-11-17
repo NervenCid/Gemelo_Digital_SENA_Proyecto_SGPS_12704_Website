@@ -1,8 +1,16 @@
-const images = [
+const carouselItems = [
     {
         id: 1,
-        image: "https://via.placeholder.com/600x300/FF0000/FFFFFF?text=Slide+1"
+        imgSrc: '../public/images/invernadero.jpg',
+        title: 'Gestión de Invernaderos',
+        description: 'Gestiona tus invernaderos con nosotros',
+    },
+    {
+        id: 2,
+        imgSrc: '../public/images/invernadero2.jpg',
+        title: 'Aprende sobre Invernaderos',
+        description: 'Aprende más sobre invernaderos',
     }
 ];
 
-export default images;
+export default carouselItems;
