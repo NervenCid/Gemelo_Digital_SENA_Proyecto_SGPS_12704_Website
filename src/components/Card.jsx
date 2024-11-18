@@ -1,10 +1,14 @@
-const Card = ({title, description, image}) => {
+const Card = ({items}) => {
     return (
-            <article className='card__container'>
-                <img src={image} className='card__image' alt={title}/>
-                <h1 className='card__title'>{title}</h1>
-                <p className='card__description'>{description}</p>
+        <div className="container__cards">
+            {items.map((item, index) => (
+            <article className='card__container' key={index}>
+                <img src={item.image} className='card__image' alt={item.title}/>
+                <h1 className='card__title'>{item.title}</h1>
+                <p className='card__description'>{item.description}</p>
             </article>
+            ))}
+        </div>
     );
 };
 

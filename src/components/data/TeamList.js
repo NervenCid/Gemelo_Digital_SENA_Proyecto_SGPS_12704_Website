@@ -7,10 +7,16 @@ const teamList = [
     },
     {
         id: 2,
-        name: "Jane Doe",
+        name: "Diego Peña",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores?",
         image: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
     },
+    {
+        id: 3,
+        name: "Gabriela Amorocho",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam provident minus incidunt repellendus magni sint maxime eos suscipit maiores tenetur deleniti, sed modi sapiente facilis dignissimos obcaecati.", 
+        image: ""
+    }
 ]
 
 export default teamList;

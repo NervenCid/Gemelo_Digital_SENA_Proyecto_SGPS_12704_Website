@@ -1,4 +1,4 @@
-const carouselItems = [
+const carouselList = [
     {
         id: 1,
         imgSrc: '../public/images/invernadero.jpg',
@@ -13,4 +13,4 @@ const carouselItems = [
     }
 ];
 
-export default carouselItems;
+export default carouselList;
