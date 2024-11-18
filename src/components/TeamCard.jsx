@@ -20,7 +20,7 @@ const TeamCard = ({ teamList }) => {
             <h1>Grupo de Investigación</h1>
             <div className="carousel_team">
                 <button onClick={prevCard} className="carousel__button carousel__button--prev">
-                    &#60; Prev
+                    &#8592;
                 </button>
                 <article className="container__team">
                     <h1>{name}</h1>
@@ -30,7 +30,7 @@ const TeamCard = ({ teamList }) => {
                     </div>
                 </article>
                 <button onClick={nextCard} className="carousel__button carousel__button--next">
-                    Next &#62;
+                    &#8594;
                 </button>
             </div>
         </div>
