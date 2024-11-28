@@ -4,7 +4,7 @@ import carouselList from "../components/data/CarouselList";
 import cardsList from "../components/data/CardList";
 
 export default function Home() {
-    return(
+    return (
         <>
             <Carousel items={carouselList} />
             <Card items={cardsList} />

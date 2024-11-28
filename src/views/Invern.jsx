@@ -1,7 +1,12 @@
+import ArtState from "../components/Hero";
+import InvernaderoCard from "../components/InvernaderoCard";
+import CardInvernaderoList from "../components/data/CardInvernaderoList";
+
 export default function Invern() {
     return (
         <>
-            <h1>Invern</h1>
+            <ArtState />
+            <InvernaderoCard items = {CardInvernaderoList}/>
         </>
     );
 }

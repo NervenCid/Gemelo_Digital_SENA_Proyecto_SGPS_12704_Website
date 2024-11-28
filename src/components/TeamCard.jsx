@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const TeamCard = ({ teamList }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextCard = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % teamList.length); 
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % teamList.length);
     };
 
     const prevCard = () => {
@@ -19,7 +19,10 @@ const TeamCard = ({ teamList }) => {
         <div className="team">
             <h1>Grupo de Investigación</h1>
             <div className="carousel_team">
-                <button onClick={prevCard} className="carousel__button carousel__button--prev">
+                <button
+                    onClick={prevCard}
+                    className="carousel__button__team carousel__button--prev"
+                >
                     &#8592;
                 </button>
                 <article className="container__team">
@@ -29,7 +32,10 @@ const TeamCard = ({ teamList }) => {
                         <p className="team__description">{description}</p>
                     </div>
                 </article>
-                <button onClick={nextCard} className="carousel__button carousel__button--next">
+                <button
+                    onClick={nextCard}
+                    className="carousel__button__team carousel__button--next"
+                >
                     &#8594;
                 </button>
             </div>

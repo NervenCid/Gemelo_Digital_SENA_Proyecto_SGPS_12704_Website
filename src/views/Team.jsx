@@ -5,6 +5,7 @@ export default function Team() {
     return (
         <div className="team">
             <TeamCard teamList={teamList} />
+            <TeamCard teamList={teamList} />
         </div>
     );
 }
