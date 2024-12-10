@@ -16,7 +16,11 @@ export default function Footer() {
                         />
                     </div>
                     <div className="social__container">
-                        <h2>Github</h2>
+                        <h2>
+                            <a href="https://github.com/NervenCid/Gemelo_Digital_SENA_Proyecto_SGPS_12704">
+                                Gemelo Digital
+                            </a>
+                        </h2>
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                             alt="GitHub icon"
@@ -33,4 +37,4 @@ export default function Footer() {
             </div>
         </footer>
     );
-};
+}

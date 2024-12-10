@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import carouselList from "../components/data/CarouselList";
 import cardsList from "../components/data/CardList";
 
-export default function Home() {
+export default function Inicio() {
     return (
         <>
             <Carousel items={carouselList} />

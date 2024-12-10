@@ -24,10 +24,13 @@ const MenuHamburguesa = () => {
                         <Link to="/">Inicio</Link>
                     </ol>
                     <ol>
-                        <Link to="/Invern">Invernadero</Link>
+                        <Link to="/Invernadero">Invernadero</Link>
                     </ol>
                     <ol>
-                        <Link to="/Team">Quienes somos</Link>
+                        <Link to="/EstadoDelArte">Estado del Arte</Link>
+                    </ol>
+                    <ol>
+                        <Link to="/Equipo">Quienes somos</Link>
                     </ol>
                 </nav>
             </div>

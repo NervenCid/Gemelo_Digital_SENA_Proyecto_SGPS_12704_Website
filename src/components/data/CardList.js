@@ -1,45 +1,27 @@
 const cardsList = [
     {
         id: 1,
-        title: "Actualización",
+        title: "Invernadero",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
         image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
+        path: "/Invernadero",
     },
     {
         id: 2,
-        title: "Gestión",
+        title: "Estado del Arte",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
         image: "https://cdn-icons-png.flaticon.com/512/4776/4776106.png",
+        path: "/EstadoDelArte",
     },
     {
         id: 3,
-        title: "Actualización",
+        title: "Equipo",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
         image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
-    },
-    {
-        id: 4,
-        title: "Actualización",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-        image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
-    },
-    {
-        id: 5,
-        title: "Actualización",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-        image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
-    },
-    {
-        id: 6,
-        title: "Actualización",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-        image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
+        path: "/Equipo",
     },
 ];
 

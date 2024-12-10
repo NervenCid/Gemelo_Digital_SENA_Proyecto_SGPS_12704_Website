@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = ({ items }) => {
     return (
         <div className="container__cards">
@@ -8,7 +10,10 @@ const Card = ({ items }) => {
                         className="card__image"
                         alt={item.title}
                     />
-                    <h1 className="card__title">{item.title}</h1>
+                    <h1 className="card__title">
+                        <Link to={item.path}>{item.title}</Link>
+                    </h1>
+
                     <p className="card__description">{item.description}</p>
                 </article>
             ))}
