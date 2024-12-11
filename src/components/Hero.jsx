@@ -5,32 +5,26 @@ const Hero = () => {
                 <div className="hero-text">
                     <h1 className="hero-title">Estado del Arte del SENA</h1>
                     <p className="hero-description">
-                        Presenta el estado del arte, es decir, una descripción
-                        del estado actual de la investigación sobre las
-                        competencias básicas. Nos permite conocer aspectos tales
-                        como la delimitación de la temática, los enfoques
-                        teóricos y metodológicos del entorno laboral y un
-                        acercamiento al concepto de competencia laboral. La
-                        investigación se centra en el estudio de las
-                        competencias consideradas básicas para el proceso de
-                        Formación Profesional Integral.
+                        El concepto de gemelo digital surge en 2002 con los
+                        trabajos de Michael Grieves y John Vickers, vinculado a
+                        la gestión del ciclo de vida del producto. Un gemelo
+                        digital es una representación virtual de un producto o
+                        proceso real, que interactúa bidireccionalmente mediante
+                        el flujo de datos. Tradicionalmente asociado al modelado
+                        CAD y simulaciones, su objetivo es reducir costos y
+                        prevenir fallos en el mundo físico. Está estrechamente
+                        relacionado con el Internet de las Cosas (IoT), ya que
+                        la conexión entre el sistema físico y su réplica digital
+                        permite recolectar datos en tiempo real. Esto facilita
+                        la creación de modelos matemáticos, optimización,
+                        seguimiento, predicción, control, y recientemente, la
+                        integración de inteligencia artificial como herramienta
+                        innovadora.
                     </p>
                 </div>
             </div>
             <div className="hero__description">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum, doloremque perspiciatis distinctio natus provident
-                    accusamus! Eligendi, accusamus! Est voluptate, nisi id
-                    aliquam eligendi odio veniam eum sit, repudiandae tempora
-                    amet!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos, fugiat. Sed delectus esse, id obcaecati dolores
-                    eveniet ducimus expedita nostrum eius neque fugit cumque
-                    culpa quibusdam, tempora optio repudiandae blanditiis.
-                </p>
+                
             </div>
         </section>
     );
