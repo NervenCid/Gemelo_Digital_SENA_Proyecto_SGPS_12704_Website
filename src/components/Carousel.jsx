@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Carousel = ({ items }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,7 +29,7 @@ const Carousel = ({ items }) => {
                 />
             </div>
             <div className="container__text">
-                <h1>{items[currentIndex].title}</h1>
+                <Link to={items[currentIndex].path}><h1>{items[currentIndex].title}</h1></Link>
             </div>
             <button
                 className="carousel__button__home carousel__button--prev"

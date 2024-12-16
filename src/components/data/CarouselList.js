@@ -1,16 +1,28 @@
 const carouselList = [
     {
         id: 1,
-        imgSrc: "../public/images/invernadero.jpg",
-        title: "Gestión de Invernaderos",
-        description: "Gestiona tus invernaderos con nosotros",
+        imgSrc: "/public/images/foto2.jpg",
+        title: "Conoce nuestro Invernadero",
+        path: "/Invernadero",
     },
     {
         id: 2,
-        imgSrc: "../public/images/invernadero2.jpg",
-        title: "Aprende sobre Invernaderos",
-        description: "Aprende más sobre invernaderos",
+        imgSrc: "/public/images/meteorilogica.jpg",
+        title: "Articulo sobre el Estado del Arte",
+        path: "/EstadodelArte"
     },
+    {
+        id: 3,
+        imgSrc: "/public/images/resultado3.jpg",
+        title: "Observa nuestros resultados",
+        path: "/Resultado",
+    },
+    {
+        id: 4,
+        imgSrc: "/public/images/gemelo.jpg",
+        title: "Conoce a nuestro Equipo de Desarrollo",
+        path: "/Equipo"
+    }
 ];
 
 export default carouselList;

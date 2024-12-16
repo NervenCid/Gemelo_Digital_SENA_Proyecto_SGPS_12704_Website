@@ -4,6 +4,7 @@ import Inicio from "./views/Inicio";
 import Invernadero from "./views/Invernadero";
 import Equipo from "./views/Equipo";
 import EstadoDelArte from "./views/EstadoDelArte";
+import Resultado from "./views/Resultados";
 
 function App() {
     return (
@@ -13,10 +14,8 @@ function App() {
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Inicio />} />
                         <Route path="/Invernadero" element={<Invernadero />} />
-                        <Route
-                            path="/EstadodelArte"
-                            element={<EstadoDelArte />}
-                        />
+                        <Route path="/Resultado" element={<Resultado />} />
+                        <Route path="/EstadodelArte" element={<EstadoDelArte />}/>
                         <Route path="/Equipo" element={<Equipo />} />
                     </Route>
                 </Route>

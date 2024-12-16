@@ -1,9 +1,9 @@
-import ArtState from "../components/Hero";
+import EstadoArte from "../components/HeroEstado";
 
 export default function EstadoDelArte(){
     return (
         <>
-        <ArtState />
+        <EstadoArte />
         </>
     );
 }

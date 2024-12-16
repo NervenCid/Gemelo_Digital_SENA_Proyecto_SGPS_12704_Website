@@ -1,4 +1,4 @@
-const Hero = () => {
+const HeroEstado = () => {
     return (
         <section className="hero">
             <div className="hero-container">
@@ -23,11 +23,8 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <div className="hero__description">
-                
-            </div>
         </section>
     );
 };
 
-export default Hero;
+export default HeroEstado;

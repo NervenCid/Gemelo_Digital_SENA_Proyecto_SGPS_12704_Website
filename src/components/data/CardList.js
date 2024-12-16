@@ -3,7 +3,7 @@ const cardsList = [
         id: 1,
         title: "Invernadero",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+            "Observa nuestro invernadero construido en el CEET",
         image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
         path: "/Invernadero",
     },
@@ -11,7 +11,7 @@ const cardsList = [
         id: 2,
         title: "Estado del Arte",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+            "Mira nuestro Articulo sobre el estado del Arte",
         image: "https://cdn-icons-png.flaticon.com/512/4776/4776106.png",
         path: "/EstadoDelArte",
     },
@@ -19,7 +19,7 @@ const cardsList = [
         id: 3,
         title: "Equipo",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+            "Conoce a nuestros integrantes de equipo del proyecto",
         image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
         path: "/Equipo",
     },

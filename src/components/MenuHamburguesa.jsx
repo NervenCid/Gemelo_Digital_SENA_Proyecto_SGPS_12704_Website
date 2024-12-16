@@ -27,6 +27,9 @@ const MenuHamburguesa = () => {
                         <Link to="/Invernadero">Invernadero</Link>
                     </ol>
                     <ol>
+                        <Link to="/Resultado">Resultados</Link>
+                    </ol>
+                    <ol>
                         <Link to="/EstadoDelArte">Estado del Arte</Link>
                     </ol>
                     <ol>

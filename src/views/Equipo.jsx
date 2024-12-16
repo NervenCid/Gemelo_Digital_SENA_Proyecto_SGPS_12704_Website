@@ -5,7 +5,6 @@ export default function Equipo() {
     return (
         <div className="team">
             <TeamCard teamList={teamList} />
-            <TeamCard teamList={teamList} />
         </div>
     );
 }
