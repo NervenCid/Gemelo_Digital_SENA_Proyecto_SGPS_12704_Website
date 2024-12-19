@@ -4,7 +4,7 @@ const cardsList = [
         title: "Invernadero",
         description:
             "Observa nuestro invernadero construido en el CEET",
-        image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
+        image: "https://cdn-icons-png.flaticon.com/512/6327/6327423.png",
         path: "/Invernadero",
     },
     {
@@ -20,9 +20,16 @@ const cardsList = [
         title: "Equipo",
         description:
             "Conoce a nuestros integrantes de equipo del proyecto",
-        image: "https://cdn-icons-png.flaticon.com/512/5278/5278646.png",
+        image: "https://cdn-icons-png.flaticon.com/512/2502/2502447.png",
         path: "/Equipo",
     },
+    {
+        id: 4,
+        title: "Resultados",
+        description: "Observa nuestro avance en las plantas",
+        image: "https://cdn-icons-png.flaticon.com/512/5807/5807927.png",
+        path: "/Resultado"
+    }
 ];
 
 export default cardsList;

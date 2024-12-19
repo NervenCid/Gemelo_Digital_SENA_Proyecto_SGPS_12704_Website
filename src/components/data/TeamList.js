@@ -3,22 +3,22 @@ const teamList = [
         id: 1,
         name: "Samuel Useche Chaparro",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam provident minus incidunt repellendus magni sint maxime eos suscipit maiores tenetur deleniti, sed modi sapiente facilis dignissimos obcaecati.",
-        image: "https://img.freepik.com/foto-gratis/cierre-dientes-hombre-moreno-sonriendo_1187-5800.jpg",
+            "Soy Aprendiz SENA del CEET, mi aporte en el proyecto fue el desarrollo de la pagina informativa sobre el invernadero",
+        image: "",
     },
     {
         id: 2,
         name: "Diego Peña",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores?",
-        image: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+            "Soy contratista del CEET, mi aporte en el proyecto fue el desarrollo del sistema de recoleccion de datos y toma de variables y aparte el desarrollo del gemelo digital.",
+        image: "/images/Foto Diego Peña Fondo Blanco.jpg",
     },
     {
         id: 3,
         name: "Gabriela Amorocho",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam provident minus incidunt repellendus magni sint maxime eos suscipit maiores tenetur deleniti, sed modi sapiente facilis dignissimos obcaecati.",
-        image: "https://cdn.pixabay.com/photo/2019/04/26/07/41/portrait-4156955_1280.jpg",
+            "Soy contratista del CEET, mi aporte en el proyecto fue el monitoreo de las plantas y el buen cuidado de ellas y del invernadero",
+        image: "",
     },
 ];
 
