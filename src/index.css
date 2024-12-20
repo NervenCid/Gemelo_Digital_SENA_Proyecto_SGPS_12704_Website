@@ -341,7 +341,7 @@ body a{
 
 .hero-description {
     font-size: 30px;
-    margin: 1rem 0;
+    text-align: justify;
 }
 
 .hero__description{
@@ -501,17 +501,24 @@ body a{
 
 .results__images__container{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     width: 100%;
-    margin: 20px auto;
-    justify-content: center;
+    max-width: 1200px;
+    margin: 10px auto;
     align-items: center;
-    gap: 20px;
+    border: 3px solid #318542;
+    border-radius: 10px;
 }
 
 .results__images__container img{
-    width: 390px;
+    width: 100%;
+    max-width: 500px;
+    border-right: 3px solid #318542;
+    justify-content: flex-start;
+}
+
+.results__images__container p{
+    font-size: 20px;
+    margin: 0px 4px;
 }
 
 /* MEDIAS QUERIES */

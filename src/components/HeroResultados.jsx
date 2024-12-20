@@ -1,4 +1,4 @@
-const HeroResultado = () => {
+const HeroResultado = ({ items }) => {
     return (
         <>
             <section className="results__container">
@@ -26,16 +26,12 @@ const HeroResultado = () => {
                     a una agricultura más sostenible y rentable.
                 </p>
             </section>
-                <figure className="results__images__container">
-                    <img src="../../public/images/resultado1.jpg"/>
-                    <img src="../../public/images/resultado2.jpg"/>
-                    <img src="../../public/images/resultado3.jpg"/>
-                    <img src="../../public/images/resultado4.png"/>
-                    <img src="../../public/images/resultado5.png"/>
-                    <img src="../../public/images/resultado6.png"/>
-                    <img src="../../public/images/gemelo.jpg"/>
-                    <img src="../../public/images/dashboard.jpg"/>
+            {items.map((item, index) => (
+                <figure className="results__images__container" key={index}>
+                    <img src={item.image} />
+                    <p>{item.description}</p>
                 </figure>
+            ))}
         </>
     );
 };
