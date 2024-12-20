@@ -21,6 +21,7 @@ const HeroEstado = () => {
                         integración de inteligencia artificial como herramienta
                         innovadora.
                     </p>
+                    <p>Purcell, W., & Neubauer, T. (2023). Digital Twins in Agriculture: A State-of-the-art review. Smart Agricultural Technology, 3, 100094. Elsevier. Disponible en <a href="https://doi.org/10.1016/j.atech.2022.100094" target="_blank">https://doi.org/10.1016/j.atech.2022.100094</a></p>
                 </div>
             </div>
         </section>

@@ -20,6 +20,12 @@ const teamList = [
             "Soy contratista del CEET, mi aporte en el proyecto fue el monitoreo de las plantas y el buen cuidado de ellas y del invernadero",
         image: "",
     },
+    {
+        id: 4,
+        name: "Alex Almanza",
+        description: "",
+        image: ""
+    }
 ];
 
 export default teamList;
